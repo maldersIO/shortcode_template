@@ -47,9 +47,7 @@ function your_shortcode_function(){
 		
 		';
 	
-		$ReturnString = ob_get_contents();
-	
-		ob_end_clean();
+		$ReturnString = ob_get_clean();
 	
 		return $ReturnString;
 
