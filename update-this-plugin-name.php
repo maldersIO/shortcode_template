@@ -36,7 +36,7 @@ function your_shortcode_function(){
 		This the shortcode content. <br />
 		Put all the stuff between ob_start(); and ReturnString.
 		
-		<!-- this is an example of a simple java script inclusion -->
+		<!-- this is an example of a simple JavaScript inclusion -->
 		
 		<script>
 		var logIt = "Hey look, the short code is working!";
